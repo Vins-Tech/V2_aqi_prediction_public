@@ -29,9 +29,6 @@ This model is **station-specific** and is **not intended for city-wide AQI predi
 - **Training:** Selected features only  
 - **Inference:** Uses the same feature pipeline as training
 
-✅ No baseline model comparison included  
-✅ No naive previous-day AQI model used
-
 ---
 
 ## 📊 Exploratory Data Analysis (EDA)
@@ -60,9 +57,6 @@ The model relies on engineered features generated strictly from **past data only
 - Lagged weather variables
 - Temporal features (day of year, month)
 - Interaction features (e.g., temperature × humidity, wind dispersion metrics)
-
-❌ No future information leakage  
-✅ Training–inference feature parity maintained
 
 ---
 
