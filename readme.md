@@ -12,7 +12,7 @@
 ## 🧠 Project Overview
 
 This project focuses on **next-day PM2.5 AQI prediction** for a **single monitoring station — BTM Layout, Bengaluru**.  
-The goal is to build a **time-aware, leakage-free machine learning system** that predicts the **next day AQI** using historical AQI patterns and meteorological data.
+The goal is to build a **time-aware, leakage-free machine learning system** that predicts the **next day AQI** using historical AQI patterns and meteorological data (real world data).
 
 📌 **Data Curation Note**  
 AQI data from **2020 and 2021 (COVID-19 period)** was **intentionally excluded** from model training due to abnormal emission patterns caused by lockdowns, which could bias long-term trend learning.
@@ -60,7 +60,7 @@ The model relies on engineered features generated strictly from **past data only
 
 ---
 
-## 🔗 Data Sources (Free APIs)
+## 🔗 Data Sources
 
 - 🌦️ **Weather Data:**  
   https://www.visualcrossing.com/
