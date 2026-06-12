@@ -4,8 +4,11 @@
 🔗 **Live Application**  
 👉 https://vins-tech-aqi-prediction-model.streamlit.app/
 
-🔗 **Deployment Repository**  
+🔗 **Deployment Repository**
 👉 https://github.com/Vins-Tech/app_aqi_prediction_deploy
+
+🔗 **MLOps Repository**
+👉 https://github.com/Vins-Tech/aqi-prediction-mlops-v4
 
 ---
 
@@ -73,13 +76,15 @@ The model relies on engineered features generated strictly from **past data only
 ## 🚀 Deployment Architecture
 
 - **This Repository:** Data processing, EDA, feature engineering, model training
-- **Deployment Repository:** Streamlit app, inference pipeline
+- **Deployment Repository:** Streamlit app and inference pipeline
+- **MLOps Repository:** Automated training and model management workflows
 - **Frontend:** Streamlit
 - **Model Loading:** Joblib
 - **Usage Control:** Shared daily prediction limit
 
-🔗 Deployment code: https://github.com/Vins-Tech/app_aqi_prediction_deploy
+🔗 Deployment Repository: https://github.com/Vins-Tech/app_aqi_prediction_deploy
 
+🔗 MLOps Repository: https://github.com/Vins-Tech/aqi-prediction-mlops-v4
 ---
 
 ## 📌 Application Workflow
